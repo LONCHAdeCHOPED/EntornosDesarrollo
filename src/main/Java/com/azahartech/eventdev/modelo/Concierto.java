@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Concierto extends Evento{
     private String bandaPrincipal;
-    public Concierto(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio, String nuevoBandaPrincipal){
-        super(nuevoNombre, nuevoFecha, nuevoRecinto, nuevoPrecio);
+    public Concierto(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio, int nuevoAforoMaximo, int nuevoInscritos, String nuevoBandaPrincipal){
+        super(nuevoNombre, nuevoFecha, nuevoRecinto, nuevoPrecio, nuevoAforoMaximo, nuevoInscritos);
         bandaPrincipal = nuevoBandaPrincipal;
     }
 

@@ -192,13 +192,13 @@ public class App {
         recintoprueba.mostrarInformacion();
 
         ServicioEvento servicioPrueba = new ServicioEvento();
-        Evento evento1 = new Evento("Evento 1",LocalDate.of(2025,12,12),recintoprueba,12);
-        Evento evento2 = new Evento("Evento 2",LocalDate.of(2025,12,12),recintoprueba,21);
-        Evento evento3 = new Evento("Evento 3",LocalDate.of(2025,12,12),recintoprueba,31);
-        servicioPrueba.añadirDestacado(evento1,0);
-        servicioPrueba.añadirDestacado(evento2,2);
-        servicioPrueba.añadirDestacado(evento3,4);
-        servicioPrueba.mostrarCartelera();
+//        Evento evento1 = new Evento("Evento 1",LocalDate.of(2025,12,12),recintoprueba,12);
+//        Evento evento2 = new Evento("Evento 2",LocalDate.of(2025,12,12),recintoprueba,21);
+//        Evento evento3 = new Evento("Evento 3",LocalDate.of(2025,12,12),recintoprueba,31);
+//        servicioPrueba.añadirDestacado(evento1,0);
+//        servicioPrueba.añadirDestacado(evento2,2);
+//        servicioPrueba.añadirDestacado(evento3,4);
+//        servicioPrueba.mostrarCartelera();
 
     }
 }

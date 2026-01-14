@@ -10,7 +10,7 @@ public class ServicioEvento {
 
 
         public ServicioEvento() {
-            eventoDePrueba = new Evento("Evento de Rock", LocalDate.of(2025,12,12), new Recinto("Ferial", "C/ Gobernador", 23), 12);
+            eventoDePrueba = new Evento("Evento de Rock", LocalDate.of(2025,12,12), new Recinto("Ferial", "C/ Gobernador", 23), 12, 12, 12);
             usuarioDePrueba = new Usuario("Jonathan", "jonatahn@gmail.com");
             usuarioDePrueba.añadirDetallePago(new DetallePago("VISA", "2312313"));
             carteleraDestacados = new Evento[5];
