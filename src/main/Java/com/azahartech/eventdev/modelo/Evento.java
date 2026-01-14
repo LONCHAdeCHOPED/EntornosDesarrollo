@@ -7,12 +7,16 @@ public class Evento {
     private LocalDate fecha;
     private Recinto recinto;
     private int precio;
+    private int aforoMaximo;
+    private int inscritos;
 
-    public Evento(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio){
+    public Evento(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio, int nuevoAforoMaximo, int nuevoInscritos){
         nombre = nuevoNombre;
         fecha = nuevoFecha;
         recinto = nuevoRecinto;
         precio = nuevoPrecio;
+        aforoMaximo = nuevoAforoMaximo;
+        inscritos = nuevoInscritos;
     }
 
     public String consultarNombre(){
@@ -36,6 +40,10 @@ public class Evento {
     public void mostrarInformacion(){
         System.out.printf("El nombre del evento es %s, la fecha del evento es el %s%n",nombre,fecha);
         recinto.mostrarInformacion();
+    }
+
+    public boolean estaLleno() {
+        return inscritos >= aforoMaximo;
     }
 
 }

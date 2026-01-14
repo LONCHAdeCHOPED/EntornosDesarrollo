@@ -6,8 +6,8 @@ public class Partido extends Evento{
     private String equipoLocal;
     private String equipoVisitante;
 
-    public Partido(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio, String nuevoEquipoLocal, String nuevoEquipoVisitante){
-        super(nuevoNombre, nuevoFecha, nuevoRecinto, nuevoPrecio);
+    public Partido(String nuevoNombre, LocalDate nuevoFecha, Recinto nuevoRecinto, int nuevoPrecio, int nuevoAforoMaximo, int nuevoInscritos, String nuevoEquipoLocal, String nuevoEquipoVisitante){
+        super(nuevoNombre, nuevoFecha, nuevoRecinto, nuevoPrecio, nuevoAforoMaximo, nuevoInscritos);
         equipoLocal = nuevoEquipoLocal;
         equipoVisitante = nuevoEquipoVisitante;
     }
